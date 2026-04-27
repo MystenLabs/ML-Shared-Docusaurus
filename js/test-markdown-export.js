@@ -1,5 +1,7 @@
+/*
 // Copyright (c) Mysten Labs, Inc.
 // SPDX-License-Identifier: Apache-2.0
+*/
 
 const fs = require('fs');
 const path = require('path');
@@ -52,9 +54,9 @@ console.log(`📊 Total markdown files exported: ${markdownCount}\n`);
 
 // Test a few sample files
 const samplePaths = [
-  'guides/getting-started.md',
-  'concepts/index.md',
-  'references/index.md'
+  'getting-started/index.md',
+  'walrus-sites/commands.md',
+  'system-overview/quilt.md'
 ];
 
 console.log('📝 Checking sample files:\n');
@@ -77,5 +79,5 @@ samplePaths.forEach(samplePath => {
 console.log('\n✅ Markdown export test completed');
 console.log('\n📖 To test locally:');
 console.log('   1. Run: pnpm serve');
-console.log('   2. Visit: http://localhost:3000/guides/getting-started.md');
+console.log('   2. Visit: http://localhost:3000/docs/data-security.md');
 console.log('   3. You should see raw markdown content');
