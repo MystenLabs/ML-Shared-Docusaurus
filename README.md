@@ -58,8 +58,7 @@ All repos share a common base. The table below shows which files from this repo 
 
 The following use per-site API keys and are managed individually:
 
-1. Cookbook AI (`plugins/askcookbook`)
-2. Algolia Search (`components/Search`)
-3. Push Feedback
+1. Algolia Search (`components/Search`)
+2. Push Feedback
 
 Additionally, all `src/theme` and `css/` components are unique to each site to prevent styling conflicts.
