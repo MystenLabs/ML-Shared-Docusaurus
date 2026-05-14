@@ -16,6 +16,8 @@ All repos share a common base. The table below shows which files from this repo 
 | File | Sui | Walrus | Seal | SuiNS |
 |---|---|---|---|---|
 | `components/Cards/index.tsx` | x | x | x | x |
+| `components/OpenInAgentButton/index.tsx` | x | x | x | x |
+| `components/OpenInAgentButton/styles.module.css` | x | x | x | x |
 | `components/Glossary/GlossaryPage.tsx` | x | x | x | x |
 | `components/Glossary/GlossaryProvider.tsx` | x | x | x | x |
 | `components/Glossary/Term.tsx` | x | x | x | x |
