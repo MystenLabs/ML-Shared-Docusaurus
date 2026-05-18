@@ -1,6 +1,8 @@
 // Copyright (c) Mysten Labs, Inc.
 // SPDX-License-Identifier: Apache-2.0
 
+/* eslint-disable max-len */
+
 /**
  * OpenInAgentButton — shared dropdown that lets users send a code snippet to an
  * AI assistant (Claude, ChatGPT, Gemini). Designed to sit inside a Docusaurus
