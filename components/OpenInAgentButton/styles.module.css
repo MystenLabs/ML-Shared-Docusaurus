@@ -4,8 +4,8 @@
   display: inline-flex;
 }
 
-/* Trigger button — inherits code-block button styling from the theme,
-   these are minimal overrides for layout */
+/* Trigger button: inherits code-block button styling from the theme.
+  These are minimal overrides for layout. */
 .triggerBtn {
   display: flex;
   align-items: center;
