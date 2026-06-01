@@ -1,4 +1,7 @@
-/* Wrapper keeps the dropdown anchored to the trigger button */
+/*
+// Copyright (c) Mysten Labs, Inc.
+// SPDX-License-Identifier: Apache-2.0
+*/
 .wrapper {
   position: relative;
   display: inline-flex;
