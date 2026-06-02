@@ -15,6 +15,8 @@ All repos share a common base. The table below shows which files from this repo 
 
 | File | Sui | Walrus | Seal | SuiNS |
 |---|---|---|---|---|
+| `components/AgentPrompt/index.tsx` | x | x | x | x |
+| `components/AgentPrompt/styles.module.css` | x | x | x | x |
 | `components/Cards/index.tsx` | x | x | x | x |
 | `components/OpenInAgentButton/index.tsx` | x | x | x | x |
 | `components/OpenInAgentButton/styles.module.css` | x | x | x | x |
