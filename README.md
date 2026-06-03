@@ -13,39 +13,39 @@ This repo is the single source of truth for shared custom components, plugins, a
 
 All repos share a common base. The table below shows which files from this repo are synced to each site.
 
-| File | Sui | Walrus | Seal | SuiNS |
-|---|---|---|---|---|
-| `components/AgentPrompt/index.tsx` | x | x | x | x |
-| `components/AgentPrompt/styles.module.css` | x | x | x | x |
-| `components/Cards/index.tsx` | x | x | x | x |
-| `components/OpenInAgentButton/index.tsx` | x | x | x | x |
-| `components/OpenInAgentButton/styles.module.css` | x | x | x | x |
-| `components/Glossary/GlossaryPage.tsx` | x | x | x | x |
-| `components/Glossary/GlossaryProvider.tsx` | x | x | x | x |
-| `components/Glossary/Term.tsx` | x | x | x | x |
-| `components/Glossary/term.module.css` | x | x | x | x |
-| `components/ImportContent/index.tsx` | * | * | * | * |
-| `components/ImportContent/utils.js` | x | x | x | x |
-| `components/RelatedLink/index.tsx` | x | x | x | x |
-| `components/SidebarIframe/index.js` | x | x | x | x |
-| `components/Snippet/index.tsx` | x | x | x | x |
-| `components/ThemeToggle/index.tsx` | x | x | x | x |
-| `components/UnsafeLink/index.tsx` | x | x | x | x |
-| `css/details.css` | x | x | x | x |
-| `js/check-links.mjs` | x | | | |
-| `js/convert-release-notes.js` | | x | x | x |
-| `js/generate-llmstxt.mjs` | x | | | |
-| `js/serve-with-rewrites.js` | | | x | x |
-| `js/tabs-md.client.js` | x | x | x | x |
-| `js/test-markdown-export.js` | | | x | x |
-| `js/utils.js` | x | x | x | x |
-| `plugins/descriptions/index.js` | x | x | x | x |
-| `plugins/inject-code/index.js` | x | x | x | x |
-| `plugins/inject-code/stepLoader.js` | x | x | x | x |
-| `plugins/plausible/client/index.ts` | x | x | x | x |
-| `plugins/plausible/index.ts` | x | x | x | x |
-| `plugins/remark-glossary.js` | x | x | x | x |
-| `plugins/tabs-md-client/index.mjs` | x | x | x | x |
+| File | Sui | Walrus | Seal | SuiNS | Hashi |
+|---|---|---|---|---|---|
+| `components/AgentPrompt/index.tsx` | x | x | x | x | x |
+| `components/AgentPrompt/styles.module.css` | x | x | x | x | x |
+| `components/Cards/index.tsx` | x | x | x | x | x |
+| `components/OpenInAgentButton/index.tsx` | x | x | x | x | |
+| `components/OpenInAgentButton/styles.module.css` | x | x | x | x | |
+| `components/Glossary/GlossaryPage.tsx` | x | x | x | x | |
+| `components/Glossary/GlossaryProvider.tsx` | x | x | x | x | x |
+| `components/Glossary/Term.tsx` | x | x | x | x | x |
+| `components/Glossary/term.module.css` | x | x | x | x | x |
+| `components/ImportContent/index.tsx` | * | * | * | * | * |
+| `components/ImportContent/utils.js` | x | x | x | x | x |
+| `components/RelatedLink/index.tsx` | x | x | x | x | x |
+| `components/SidebarIframe/index.js` | x | x | x | x | x |
+| `components/Snippet/index.tsx` | x | x | x | x | x |
+| `components/ThemeToggle/index.tsx` | x | x | x | x | x |
+| `components/UnsafeLink/index.tsx` | x | x | x | x | x |
+| `css/details.css` | x | x | x | x | |
+| `js/check-links.mjs` | x | | | | |
+| `js/convert-release-notes.js` | | x | x | x | |
+| `js/generate-llmstxt.mjs` | x | | | | |
+| `js/serve-with-rewrites.js` | | | x | x | |
+| `js/tabs-md.client.js` | x | x | x | x | x |
+| `js/test-markdown-export.js` | | | x | x | |
+| `js/utils.js` | x | x | x | x | |
+| `plugins/descriptions/index.js` | x | x | x | x | x |
+| `plugins/inject-code/index.js` | x | x | x | x | x |
+| `plugins/inject-code/stepLoader.js` | x | x | x | x | x |
+| `plugins/plausible/client/index.ts` | x | x | x | x | x |
+| `plugins/plausible/index.ts` | x | x | x | x | x |
+| `plugins/remark-glossary.js` | x | x | x | x | x |
+| `plugins/tabs-md-client/index.mjs` | x | x | x | x | x |
 
 `*` = present in the repo but excluded from automatic sync (contains repo-specific imports)
 
@@ -57,6 +57,7 @@ All repos share a common base. The table below shows which files from this repo 
 | [MystenLabs/walrus](https://github.com/MystenLabs/walrus) | `docs/site/src/shared/` |
 | [MystenLabs/seal](https://github.com/MystenLabs/seal) | `docs/site/src/shared/` |
 | [MystenLabs/suins-contracts](https://github.com/MystenLabs/suins-contracts) | `documentation/site/src/shared/` |
+| [MystenLabs/hashi](https://github.com/MystenLabs/hashi) | `design/src/shared/` |
 
 ## Components that cannot be shared
 
