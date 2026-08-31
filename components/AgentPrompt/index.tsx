@@ -1,5 +1,7 @@
+/*
 // Copyright (c) Mysten Labs, Inc.
 // SPDX-License-Identifier: Apache-2.0
+*/
 //
 // AgentPrompt — a callout that surfaces a ready-made builder prompt at the top
 // of a docs page. Readers can copy the prompt or open it directly in an AI
@@ -114,7 +116,12 @@ export default function AgentPrompt({ prompt }: { prompt: string }) {
                   key={agent.id}
                   type="button"
                   role="menuitem"
-                  className={`${styles.item} plausible-event-name=open+agent+prompt plausible-event-agent=${agent.id} plausible-event-page=${pageName}`}
+                  className={[
+                    styles.item,
+                    "plausible-event-name=open+agent+prompt",
+                    `plausible-event-agent=${agent.id}`,
+                    `plausible-event-page=${pageName}`,
+                  ].join(" ")}
                   onClick={() => openAgent(agent)}
                 >
                   {agent.label}
